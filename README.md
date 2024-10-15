@@ -13,23 +13,7 @@ This project involves testing the [Mock Fake API](https://mockapi.io/projects/66
 
 ## Test Scenarios
 
-### 1. Postman Testing
-
-Postman is used to manually test the Platzi Fake API. The test scenarios cover the following endpoints:
-- *GET /products*: Fetch all products.
-- *GET /products/{id}*: Fetch a specific product by ID.
-- *POST /products*: Add a new product.
-- *PUT /products/{id}*: Update an existing product by ID.
-- *DELETE /products/{id}*: Delete a product by ID.
-
-Assertions in Postman check:
-- *Status codes* (200, 201, 404, etc.).
-- *Response body content* to verify valid product data.
-- *Response time* to ensure optimal API performance.
-
-
-
-### 4. RestAssured Automation
+### 1. RestAssured Automation
 *RestAssured* is used for writing automated tests in Java. It simplifies validating REST APIs, allowing programmatic assertions on status codes, response bodies, headers, and more.
 
 ## Conclusion
