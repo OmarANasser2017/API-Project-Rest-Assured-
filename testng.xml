@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Omar Abd_El_Nasser/IdeaProjects/Restassuredproject">
+        <classes>
+            <class name="CreateNewCountries.CreateCountriesAndCheck">
+                <methods>
+                    <include name="test_post"/>
+                    <include name="getUser"/>
+                    <include name="update"/>
+                </methods>
+            </class>
+            <class name="GetCountries.CountriesData">
+                <methods>
+                    <include name="getUser"/>
+                    <include name="getFirstCountry"/>
+                    <include name="getLastCountry"/>
+                    <include name="getCountryById"/>
+                    <include name="getNotFoundData"/>
+                </methods>
+            </class>
+            <class name="ModifyLocation.EditdataCountries">
+                <methods>
+                    <include name="update"/>
+                    <include name="getUser"/>
+                </methods>
+            </class>
+
+        <class name="DeleteMyCountry.Delete">
+            <methods>
+                <include name="deleteCountry"/>
+            </methods>
+        </class>
+        </classes>
+    </test>
+</suite>
